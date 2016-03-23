@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="http://localhost/cart/catalog/view/theme/fdd/stylesheet/theme_1.css"/>
+    <link rel="Stylesheet" type="text/css" href="http://localhost/cart/catalog/view/theme/fdd/stylesheet/home.css" />
+    <link href="http://localhost/cart/catalog/view/theme/fdd/stylesheet/dd.css" rel="stylesheet" media="screen" />
+</head>
+<body>
+<div class="search">
+    <form action="http://search.dangdang.com" name="searchform"  id="form_search_new" onsubmit="return searchsubmit();"  method="GET">
+        <label  for="key_S" class="label_search" id="label_key" onclick="this.style.color='rgb(255, 255, 255)';" style="visibility: visible; color: rgb(102, 102, 102);" >顾颉刚国史讲话</label>
+        <input type="text" class="text gray"  name="key" ID="key_S" autocomplete="off" onclick="key_onclick(event);" onfocus="key_onfocus(event);"  onblur="key_onblur();" onbeforepaste="onpaste_search();"/><a href="javascript:void(0);" onclick="clearkeys();" class="del-keywords"></a><span class="select"  onmouseover="allCategoryShow();"  onmouseleave="allCategoryHide();" onmouseout='if("\v"!="v"){ allCategoryHide();}'><span id="Show_Category_Name">全部分类</span><span class="icon"></span>
+                <div id="search_all_category" class="select_pop" style="height:0px;padding: 0px;border-width: 0px;">
+                    <a href="javascript:void(0);" onclick="selectCategory('',this);" ><span id="Show_Category_Name">全部分类</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory('100000',this);"><span>尾品汇</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory('01.00.00.00.00.00',this);"><span>图书</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory('03.00.00.00.00.00',this);"><span>音像</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory('05.00.00.00.00.00',this);"><span>影视</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory('98.00.00.00.00.00',this);"><span>数字商品</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4002074,this);"><span>时尚美妆</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4001940,this);"><span>母婴用品</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4002061,this);"><span>玩具</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4004866,this);"><span>孕婴服饰</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4004344,this);"><span>童装童鞋</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003900,this);"><span>家居日用</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003760,this);"><span>家具装饰</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003844,this);"><span>服装</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003872,this);"><span>鞋</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4001829,this);"><span>箱包皮具</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003639,this);"><span>手表饰品</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003728,this);"><span>运动户外</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4002429,this);"><span>汽车用品</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4002145,this);"><span>食品</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4006497,this);"><span>手机通讯</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003613,this);"><span>数码影音</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4003819,this);"><span>电脑办公</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4007241,this);"><span>大家电</span></a>
+                    <a href="javascript:void(0);" onclick="selectCategory(4001001,this);"><span>家用电器</span></a>
+                </div>
+            </span>
+        <input type="hidden" id="default_key" value="顾颉刚国史讲话"/>
+        <input type="submit" id="search_btn" style="display:none"/>
+        <input id="SearchFromTop" style="display:none" type="hidden" name="SearchFromTop" value="1"/>
+        <input type="button" id="suggest_product_btn" name="suggestproduct_btn"  style="display:none" onclick="void(0)"/>
+        <input type="button" id="suggest_class_btn" name="suggestclass_btn"  style="display:none" onclick="void(0)"/>
+        <input type="submit" id="suggest_searchkey_btn" name="suggestsearchkey_btn"  style="display:none"/>
+        <input type="hidden" id="catalog_S" name="catalog" value="" >
+        <input type="button" class="button" dd_name="搜索按钮" onclick="javascript:document.getElementById('search_btn').click();"/>
+    </form>
+</div>
+
+</body>
+</html>

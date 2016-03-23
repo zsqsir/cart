@@ -1,0 +1,7 @@
+div#container{width:600px}
+div#left{height:300px;width:200px;background-color:#00ff00;float:left}
+div#right{height:200px;width:300px;background-color:yellow;float:right}
+div#footer{clear:both;text-align:center;background-color:red}
+h2{color:#00b3ee}
+.a{color:#d2322d}
+

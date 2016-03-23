@@ -1,0 +1,37 @@
+<modification>
+	<id>Install SQL Patches</id>
+	<version>1.0</version>
+	<vqmver>2.1.5</vqmver>
+	<author>Straightlight</author>
+	
+	<file name="admin/controller/common/header.php">
+		<operation>
+			<search position="after"><![CDATA[$this->data['backup'] = $this->url->link('tool/backup', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+			<add><![CDATA[
+			$this->data['text_sqlpatch'] = $this->language->get('text_sqlpatch');
+			$this->data['sqlpatch'] = $this->url->link('tool/sqlpatch', 'token=' . $this->session->data['token'], 'SSL');			
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="admin/language/english/common/header.php">
+		<operation>
+			<search position="after"><![CDATA[$_['text_backup']                      = 'Backup / Restore';]]></search>
+			<add><![CDATA[
+			$_['text_sqlpatch']                      = 'Install SQL Patches';
+			]]>
+			</add>
+		</operation>
+	</file>
+	
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after"><![CDATA[<li><a href="<?php echo $backup; ?>"><?php echo $text_backup; ?></a></li>]]></search>
+			<add><![CDATA[
+			<li><a href="<?php echo $sqlpatch; ?>"><?php echo $text_sqlpatch; ?></a></li>
+			]]>
+			</add>
+		</operation>
+	</file>
+</modification>
