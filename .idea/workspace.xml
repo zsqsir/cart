@@ -122,8 +122,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39570552">
-              <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.2576687">
+              <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -507,7 +507,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="common&#9;FILE&#9;file:///opt/lampp/htdocs/cart/catalog/view/javascript/common.js&#10;request&#9;FILE&#9;file:///opt/lampp/htdocs/cart/system/library/request.php&#10;dds&#9;FILE&#9;file:///opt/lampp/htdocs/cart/ddsearch.html&#10;co&#9;FILE&#9;file:///opt/lampp/htdocs/cart/config.php&#10;con&#9;FILE&#9;file:///opt/lampp/htdocs/cart/config.php&#10;config&#9;FILE&#9;file:///opt/lampp/htdocs/cart/config.php&#10;load&#9;FILE&#9;file:///opt/lampp/htdocs/cart/system/engine/loader.php&#10;header_150803&#9;FILE&#9;file:///opt/lampp/htdocs/cart/catalog/view/theme/fdd/stylesheet/header_150803.css&#10;cache.&#9;FILE&#9;file:///opt/lampp/htdocs/cart/system/storage/cache/cache.currency.1458519971&#10;file&#9;null&#9;null&#10;language.php&#9;FILE&#9;file:///opt/lampp/htdocs/cart/catalog/model/localisation/language.php&#10;inde&#9;FILE&#9;file:///opt/lampp/htdocs/cart/index.php&#10;confi&#9;FILE&#9;file:///opt/lampp/htdocs/cart/config.php&#10;dd&#9;FILE&#9;file:///opt/lampp/htdocs/cart/.idea/ddshearch.html&#10;styleshe&#9;FILE&#9;file:///opt/lampp/htdocs/cart/catalog/view/theme/fdd/stylesheet/stylesheet.css&#10;DIR_CONFIG&#9;null&#9;null&#10;DIR_TEMPLATE&#9;null&#9;null&#10;theme&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/javascript/bootstrap/css/theme.css&#10;mysqli.php&#9;FILE&#9;file:///opt/lampp/htdocs/cart/system/library/db/mysqli.php&#10;goodsli&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/template/import/goodslist.php&#10;index&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/index.php&#10;user.&#9;FILE&#9;file:///opt/lampp/htdocs/cart/system/library/user.php&#10;goodslist.php&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/template/import/goodslist.php&#10;response&#9;null&#9;null&#10;permission.php&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/controller/error/permission.php&#10;moment.&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/javascript/jquery/datetimepicker/moment.js&#10;common.js&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/javascript/common.js&#10;dashboard.tpl&#9;FILE&#9;file:///opt/lampp/htdocs/cart/admin/view/template/common/dashboard.tpl&#10;token&#9;null&#9;null&#10;cookie&#9;null&#9;null&#10;sess&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML4 File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -980,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog/controller/common/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39570552">
-          <caret line="118" column="41" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.2576687">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="8" />
           <folding />
         </state>
       </provider>
